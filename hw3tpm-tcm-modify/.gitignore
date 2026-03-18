@@ -1,0 +1,14 @@
+.vscode
+build/
+
+NVChip
+
+platfrom.port
+
+missing
+install-sh
+depcomp
+
+aclocal.m4
+
+autom4te.cache

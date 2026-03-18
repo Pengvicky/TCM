@@ -1,0 +1,541 @@
+tpm/src/command/Object/libtpm_a-CreateLoaded.o: \
+ tpm/src/command/Object/CreateLoaded.c /usr/include/stdc-predef.h \
+ tpm/include/private/Tpm.h tpm/include/public/tpm_public.h \
+ TpmConfiguration/TpmConfiguration/TpmBuildSwitches.h \
+ tpm/include/public/CompilerDependencies.h \
+ tpm/include/public/CompilerDependencies_gcc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ TpmConfiguration/TpmConfiguration/TpmProfile.h \
+ TpmConfiguration/TpmConfiguration/TpmProfile_Common.h \
+ TpmConfiguration/TpmConfiguration/TpmProfile_CommandList.h \
+ TpmConfiguration/TpmConfiguration/TpmProfile_Misc.h \
+ TpmConfiguration/TpmConfiguration/TpmProfile_ErrorCodes.h \
+ TpmConfiguration/TpmConfiguration/VendorInfo.h \
+ tpm/include/public/VerifyConfiguration.h tpm/include/public/BaseTypes.h \
+ tpm/include/public/TPMB.h tpm/include/public/MinMax.h \
+ tpm/include/public/tpm_radix.h tpm/include/public/TpmTypes.h \
+ tpm/include/public/Capabilities.h \
+ tpm/include/public/TpmAlgorithmDefines.h \
+ tpm/include/public/TpmCalculatedAttributes.h \
+ tpm/include/public/GpMacros.h tpm/include/public/endian_swap.h \
+ tpm/include/public/TpmAlgorithmDefines.h \
+ tpm/include/private/LibSupport.h \
+ tpm/cryptolibs/Ohitls/include/Ohitls/TpmToOhitlsSym.h \
+ /usr/local/include/include/crypto/crypt_errno.h \
+ /usr/local/include/crypto/aes/include/crypt_aes.h \
+ /usr/local/include/hitls_build.h \
+ /usr/local/include/hitls_config_layer_crypto.h \
+ /usr/local/include/hitls_config_layer_bsl.h \
+ /usr/local/include/hitls_config_check.h \
+ /usr/local/include/crypto/sm4/include/crypt_sm4.h /usr/include/string.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
+ /usr/local/include/crypt_types.h /usr/local/include/crypt_algid.h \
+ /usr/local/include/bsl_obj.h /usr/local/include/bsl_types.h \
+ /usr/local/include/crypt_local_types.h /usr/local/include/crypt_types.h \
+ /usr/local/include/bsl_params.h /usr/local/include/crypt_params_key.h \
+ /usr/local/include/crypt_eal_provider.h /usr/local/include/bsl_sal.h \
+ tpm/cryptolibs/Ohitls/include/Ohitls/TpmToOhitlsHash.h \
+ /usr/local/include/crypto/sha1/include/crypt_sha1.h \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ /usr/local/include/bsl_params.h \
+ /usr/local/include/crypto/sha2/include/crypt_sha2.h \
+ /usr/local/include/crypto/sm3/include/crypt_sm3.h \
+ tpm/include/public/GpMacros.h tpm/include/private/Global.h \
+ tpm/include/public/Capabilities.h tpm/include/public/TpmTypes.h \
+ tpm/include/private/CommandAttributes.h tpm/include/private/CryptTest.h \
+ tpm/cryptolibs/TpmBigNum/include/TpmBigNum/TpmToTpmBigNumMath.h \
+ tpm/cryptolibs/TpmBigNum/include/BnValues.h \
+ tpm/cryptolibs/Ohitls/include/Ohitls/BnToOhitlsMath.h \
+ /usr/local/include/crypto/bn/include/crypt_bn.h \
+ /usr/local/include/crypto/ecc/include/crypt_ecc.h \
+ /usr/local/include/crypt_bn.h /usr/local/include/crypt_algid.h \
+ tpm/cryptolibs/Ohitls/include/Ohitls/support/TpmToOhitlsSupport_fp.h \
+ tpm/cryptolibs/TpmBigNum/include/BnConvert_fp.h \
+ tpm/cryptolibs/TpmBigNum/include/BnMath_fp.h \
+ tpm/cryptolibs/TpmBigNum/include/BnMemory_fp.h \
+ tpm/cryptolibs/TpmBigNum/include/BnSupport_Interface.h \
+ tpm/cryptolibs/common/include/CryptoInterface.h \
+ tpm/cryptolibs/TpmBigNum/include/BnValues.h \
+ tpm/cryptolibs/common/include/MathLibraryInterface.h \
+ tpm/cryptolibs/common/include/MathLibraryInterfaceTypes.h \
+ tpm/include/private/CryptHash.h tpm/include/private/CryptSym.h \
+ tpm/include/private/CryptRand.h tpm/include/private/CryptEcc.h \
+ tpm/include/private/CryptRsa.h tpm/include/private/NV.h \
+ tpm/include/public/ACT.h tpm/include/private/InternalRoutines.h \
+ tpm/include/platform_interface/prototypes/_TPM_Hash_Start_fp.h \
+ tpm/include/platform_interface/prototypes/_TPM_Hash_Data_fp.h \
+ tpm/include/platform_interface/prototypes/_TPM_Hash_End_fp.h \
+ tpm/include/private/prototypes/Object_fp.h \
+ tpm/include/private/prototypes/Context_spt_fp.h \
+ tpm/include/private/prototypes/Object_spt_fp.h \
+ tpm/include/private/prototypes/Entity_fp.h \
+ tpm/include/private/prototypes/Session_fp.h \
+ tpm/include/private/prototypes/Hierarchy_fp.h \
+ tpm/include/private/prototypes/NvReserved_fp.h \
+ tpm/include/private/prototypes/NvDynamic_fp.h \
+ tpm/include/private/prototypes/NV_spt_fp.h \
+ tpm/include/private/prototypes/ACT_spt_fp.h \
+ tpm/include/private/prototypes/PCR_fp.h \
+ tpm/include/private/prototypes/DA_fp.h \
+ tpm/include/public/prototypes/TpmFail_fp.h \
+ tpm/include/private/prototypes/SessionProcess_fp.h \
+ tpm/include/private/prototypes/CommandCodeAttributes_fp.h \
+ tpm/include/private/Marshal.h \
+ tpm/include/private/prototypes/Marshal_fp.h \
+ tpm/include/private/prototypes/Time_fp.h \
+ tpm/include/private/prototypes/Locality_fp.h \
+ tpm/include/private/prototypes/PP_fp.h \
+ tpm/include/private/prototypes/CommandAudit_fp.h \
+ tpm/include/platform_interface/prototypes/Manufacture_fp.h \
+ tpm/include/private/prototypes/Handle_fp.h \
+ tpm/include/private/prototypes/Power_fp.h \
+ tpm/include/private/prototypes/Response_fp.h \
+ tpm/include/private/prototypes/CommandDispatcher_fp.h \
+ tpm/include/private/prototypes/AC_spt_fp.h \
+ tpm/include/private/prototypes/Bits_fp.h \
+ tpm/include/private/prototypes/AlgorithmCap_fp.h \
+ tpm/include/private/prototypes/PropertyCap_fp.h \
+ tpm/include/private/prototypes/IoBuffers_fp.h \
+ tpm/include/private/prototypes/Memory_fp.h \
+ tpm/include/private/prototypes/ResponseCodeProcessing_fp.h \
+ tpm/include/private/prototypes/Ticket_fp.h \
+ tpm/include/private/prototypes/CryptUtil_fp.h \
+ tpm/include/private/prototypes/CryptHash_fp.h \
+ tpm/include/private/prototypes/CryptSym_fp.h \
+ tpm/include/private/prototypes/CryptPrime_fp.h \
+ tpm/include/private/prototypes/CryptRand_fp.h \
+ tpm/include/private/prototypes/CryptSelfTest_fp.h \
+ tpm/include/private/prototypes/MathOnByteBuffers_fp.h \
+ tpm/include/private/prototypes/AlgorithmTests_fp.h \
+ tpm/include/private/prototypes/CryptEccMain_fp.h \
+ tpm/include/private/prototypes/CryptEccSignature_fp.h \
+ tpm/include/private/prototypes/CryptEccKeyExchange_fp.h \
+ tpm/include/private/prototypes/CryptEccCrypt_fp.h \
+ tpm/include/private/prototypes/CryptSmac_fp.h \
+ tpm/include/private/prototypes/CryptCmac_fp.h \
+ tpm/include/platform_interface/tpm_to_platform_interface.h \
+ tpm/include/platform_interface/prototypes/platform_pcr_fp.h \
+ tpm/include/platform_interface/pcrstruct.h \
+ tpm/include/private/prototypes/CreateLoaded_fp.h
+
+/usr/include/stdc-predef.h:
+
+tpm/include/private/Tpm.h:
+
+tpm/include/public/tpm_public.h:
+
+TpmConfiguration/TpmConfiguration/TpmBuildSwitches.h:
+
+tpm/include/public/CompilerDependencies.h:
+
+tpm/include/public/CompilerDependencies_gcc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+TpmConfiguration/TpmConfiguration/TpmProfile.h:
+
+TpmConfiguration/TpmConfiguration/TpmProfile_Common.h:
+
+TpmConfiguration/TpmConfiguration/TpmProfile_CommandList.h:
+
+TpmConfiguration/TpmConfiguration/TpmProfile_Misc.h:
+
+TpmConfiguration/TpmConfiguration/TpmProfile_ErrorCodes.h:
+
+TpmConfiguration/TpmConfiguration/VendorInfo.h:
+
+tpm/include/public/VerifyConfiguration.h:
+
+tpm/include/public/BaseTypes.h:
+
+tpm/include/public/TPMB.h:
+
+tpm/include/public/MinMax.h:
+
+tpm/include/public/tpm_radix.h:
+
+tpm/include/public/TpmTypes.h:
+
+tpm/include/public/Capabilities.h:
+
+tpm/include/public/TpmAlgorithmDefines.h:
+
+tpm/include/public/TpmCalculatedAttributes.h:
+
+tpm/include/public/GpMacros.h:
+
+tpm/include/public/endian_swap.h:
+
+tpm/include/public/TpmAlgorithmDefines.h:
+
+tpm/include/private/LibSupport.h:
+
+tpm/cryptolibs/Ohitls/include/Ohitls/TpmToOhitlsSym.h:
+
+/usr/local/include/include/crypto/crypt_errno.h:
+
+/usr/local/include/crypto/aes/include/crypt_aes.h:
+
+/usr/local/include/hitls_build.h:
+
+/usr/local/include/hitls_config_layer_crypto.h:
+
+/usr/local/include/hitls_config_layer_bsl.h:
+
+/usr/local/include/hitls_config_check.h:
+
+/usr/local/include/crypto/sm4/include/crypt_sm4.h:
+
+/usr/include/string.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/strings.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h:
+
+/usr/local/include/crypt_types.h:
+
+/usr/local/include/crypt_algid.h:
+
+/usr/local/include/bsl_obj.h:
+
+/usr/local/include/bsl_types.h:
+
+/usr/local/include/crypt_local_types.h:
+
+/usr/local/include/crypt_types.h:
+
+/usr/local/include/bsl_params.h:
+
+/usr/local/include/crypt_params_key.h:
+
+/usr/local/include/crypt_eal_provider.h:
+
+/usr/local/include/bsl_sal.h:
+
+tpm/cryptolibs/Ohitls/include/Ohitls/TpmToOhitlsHash.h:
+
+/usr/local/include/crypto/sha1/include/crypt_sha1.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+/usr/local/include/bsl_params.h:
+
+/usr/local/include/crypto/sha2/include/crypt_sha2.h:
+
+/usr/local/include/crypto/sm3/include/crypt_sm3.h:
+
+tpm/include/public/GpMacros.h:
+
+tpm/include/private/Global.h:
+
+tpm/include/public/Capabilities.h:
+
+tpm/include/public/TpmTypes.h:
+
+tpm/include/private/CommandAttributes.h:
+
+tpm/include/private/CryptTest.h:
+
+tpm/cryptolibs/TpmBigNum/include/TpmBigNum/TpmToTpmBigNumMath.h:
+
+tpm/cryptolibs/TpmBigNum/include/BnValues.h:
+
+tpm/cryptolibs/Ohitls/include/Ohitls/BnToOhitlsMath.h:
+
+/usr/local/include/crypto/bn/include/crypt_bn.h:
+
+/usr/local/include/crypto/ecc/include/crypt_ecc.h:
+
+/usr/local/include/crypt_bn.h:
+
+/usr/local/include/crypt_algid.h:
+
+tpm/cryptolibs/Ohitls/include/Ohitls/support/TpmToOhitlsSupport_fp.h:
+
+tpm/cryptolibs/TpmBigNum/include/BnConvert_fp.h:
+
+tpm/cryptolibs/TpmBigNum/include/BnMath_fp.h:
+
+tpm/cryptolibs/TpmBigNum/include/BnMemory_fp.h:
+
+tpm/cryptolibs/TpmBigNum/include/BnSupport_Interface.h:
+
+tpm/cryptolibs/common/include/CryptoInterface.h:
+
+tpm/cryptolibs/TpmBigNum/include/BnValues.h:
+
+tpm/cryptolibs/common/include/MathLibraryInterface.h:
+
+tpm/cryptolibs/common/include/MathLibraryInterfaceTypes.h:
+
+tpm/include/private/CryptHash.h:
+
+tpm/include/private/CryptSym.h:
+
+tpm/include/private/CryptRand.h:
+
+tpm/include/private/CryptEcc.h:
+
+tpm/include/private/CryptRsa.h:
+
+tpm/include/private/NV.h:
+
+tpm/include/public/ACT.h:
+
+tpm/include/private/InternalRoutines.h:
+
+tpm/include/platform_interface/prototypes/_TPM_Hash_Start_fp.h:
+
+tpm/include/platform_interface/prototypes/_TPM_Hash_Data_fp.h:
+
+tpm/include/platform_interface/prototypes/_TPM_Hash_End_fp.h:
+
+tpm/include/private/prototypes/Object_fp.h:
+
+tpm/include/private/prototypes/Context_spt_fp.h:
+
+tpm/include/private/prototypes/Object_spt_fp.h:
+
+tpm/include/private/prototypes/Entity_fp.h:
+
+tpm/include/private/prototypes/Session_fp.h:
+
+tpm/include/private/prototypes/Hierarchy_fp.h:
+
+tpm/include/private/prototypes/NvReserved_fp.h:
+
+tpm/include/private/prototypes/NvDynamic_fp.h:
+
+tpm/include/private/prototypes/NV_spt_fp.h:
+
+tpm/include/private/prototypes/ACT_spt_fp.h:
+
+tpm/include/private/prototypes/PCR_fp.h:
+
+tpm/include/private/prototypes/DA_fp.h:
+
+tpm/include/public/prototypes/TpmFail_fp.h:
+
+tpm/include/private/prototypes/SessionProcess_fp.h:
+
+tpm/include/private/prototypes/CommandCodeAttributes_fp.h:
+
+tpm/include/private/Marshal.h:
+
+tpm/include/private/prototypes/Marshal_fp.h:
+
+tpm/include/private/prototypes/Time_fp.h:
+
+tpm/include/private/prototypes/Locality_fp.h:
+
+tpm/include/private/prototypes/PP_fp.h:
+
+tpm/include/private/prototypes/CommandAudit_fp.h:
+
+tpm/include/platform_interface/prototypes/Manufacture_fp.h:
+
+tpm/include/private/prototypes/Handle_fp.h:
+
+tpm/include/private/prototypes/Power_fp.h:
+
+tpm/include/private/prototypes/Response_fp.h:
+
+tpm/include/private/prototypes/CommandDispatcher_fp.h:
+
+tpm/include/private/prototypes/AC_spt_fp.h:
+
+tpm/include/private/prototypes/Bits_fp.h:
+
+tpm/include/private/prototypes/AlgorithmCap_fp.h:
+
+tpm/include/private/prototypes/PropertyCap_fp.h:
+
+tpm/include/private/prototypes/IoBuffers_fp.h:
+
+tpm/include/private/prototypes/Memory_fp.h:
+
+tpm/include/private/prototypes/ResponseCodeProcessing_fp.h:
+
+tpm/include/private/prototypes/Ticket_fp.h:
+
+tpm/include/private/prototypes/CryptUtil_fp.h:
+
+tpm/include/private/prototypes/CryptHash_fp.h:
+
+tpm/include/private/prototypes/CryptSym_fp.h:
+
+tpm/include/private/prototypes/CryptPrime_fp.h:
+
+tpm/include/private/prototypes/CryptRand_fp.h:
+
+tpm/include/private/prototypes/CryptSelfTest_fp.h:
+
+tpm/include/private/prototypes/MathOnByteBuffers_fp.h:
+
+tpm/include/private/prototypes/AlgorithmTests_fp.h:
+
+tpm/include/private/prototypes/CryptEccMain_fp.h:
+
+tpm/include/private/prototypes/CryptEccSignature_fp.h:
+
+tpm/include/private/prototypes/CryptEccKeyExchange_fp.h:
+
+tpm/include/private/prototypes/CryptEccCrypt_fp.h:
+
+tpm/include/private/prototypes/CryptSmac_fp.h:
+
+tpm/include/private/prototypes/CryptCmac_fp.h:
+
+tpm/include/platform_interface/tpm_to_platform_interface.h:
+
+tpm/include/platform_interface/prototypes/platform_pcr_fp.h:
+
+tpm/include/platform_interface/pcrstruct.h:
+
+tpm/include/private/prototypes/CreateLoaded_fp.h:

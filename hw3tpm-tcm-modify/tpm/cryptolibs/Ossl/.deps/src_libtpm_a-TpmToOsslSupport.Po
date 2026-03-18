@@ -1,0 +1,4 @@
+tpm/cryptolibs/Ossl/src_libtpm_a-TpmToOsslSupport.o: \
+ tpm/cryptolibs/Ossl/TpmToOsslSupport.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

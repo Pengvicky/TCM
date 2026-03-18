@@ -1,0 +1,4 @@
+tpm/cryptolibs/Ossl/src_libtpm_a-BnToOsslMath.o: \
+ tpm/cryptolibs/Ossl/BnToOsslMath.c /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

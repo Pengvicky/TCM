@@ -1,0 +1,188 @@
+Platform/src/libplatform_a-PowerPlat.o: Platform/src/PowerPlat.c \
+ /usr/include/stdc-predef.h Platform/include/Platform.h \
+ TpmConfiguration/TpmConfiguration/TpmBuildSwitches.h \
+ tpm/include/public/CompilerDependencies.h \
+ tpm/include/public/CompilerDependencies_gcc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ TpmConfiguration/TpmConfiguration/TpmProfile.h \
+ TpmConfiguration/TpmConfiguration/TpmProfile_Common.h \
+ TpmConfiguration/TpmConfiguration/TpmProfile_CommandList.h \
+ TpmConfiguration/TpmConfiguration/TpmProfile_Misc.h \
+ TpmConfiguration/TpmConfiguration/TpmProfile_ErrorCodes.h \
+ TpmConfiguration/TpmConfiguration/VendorInfo.h \
+ tpm/include/public/BaseTypes.h tpm/include/public/TPMB.h \
+ tpm/include/public/MinMax.h Platform/include/PlatformACT.h \
+ Platform/include/PlatformClock.h /usr/include/time.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ Platform/include/PlatformData.h \
+ Platform/include/prototypes/platform_public_interface.h \
+ tpm/include/platform_interface/tpm_to_platform_interface.h \
+ tpm/include/platform_interface/prototypes/platform_pcr_fp.h \
+ tpm/include/public/TpmTypes.h tpm/include/public/Capabilities.h \
+ tpm/include/public/TpmAlgorithmDefines.h \
+ tpm/include/public/TpmCalculatedAttributes.h \
+ tpm/include/public/GpMacros.h tpm/include/public/endian_swap.h \
+ tpm/include/platform_interface/pcrstruct.h \
+ tpm/include/platform_interface/platform_to_tpm_interface.h \
+ tpm/include/platform_interface/prototypes/_TPM_Hash_Data_fp.h \
+ tpm/include/platform_interface/prototypes/_TPM_Hash_End_fp.h \
+ tpm/include/platform_interface/prototypes/_TPM_Hash_Start_fp.h \
+ tpm/include/platform_interface/prototypes/_TPM_Init_fp.h \
+ tpm/include/platform_interface/prototypes/ExecCommand_fp.h \
+ tpm/include/platform_interface/prototypes/Manufacture_fp.h \
+ tpm/include/public/prototypes/TpmFail_fp.h
+
+/usr/include/stdc-predef.h:
+
+Platform/include/Platform.h:
+
+TpmConfiguration/TpmConfiguration/TpmBuildSwitches.h:
+
+tpm/include/public/CompilerDependencies.h:
+
+tpm/include/public/CompilerDependencies_gcc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+TpmConfiguration/TpmConfiguration/TpmProfile.h:
+
+TpmConfiguration/TpmConfiguration/TpmProfile_Common.h:
+
+TpmConfiguration/TpmConfiguration/TpmProfile_CommandList.h:
+
+TpmConfiguration/TpmConfiguration/TpmProfile_Misc.h:
+
+TpmConfiguration/TpmConfiguration/TpmProfile_ErrorCodes.h:
+
+TpmConfiguration/TpmConfiguration/VendorInfo.h:
+
+tpm/include/public/BaseTypes.h:
+
+tpm/include/public/TPMB.h:
+
+tpm/include/public/MinMax.h:
+
+Platform/include/PlatformACT.h:
+
+Platform/include/PlatformClock.h:
+
+/usr/include/time.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+Platform/include/PlatformData.h:
+
+Platform/include/prototypes/platform_public_interface.h:
+
+tpm/include/platform_interface/tpm_to_platform_interface.h:
+
+tpm/include/platform_interface/prototypes/platform_pcr_fp.h:
+
+tpm/include/public/TpmTypes.h:
+
+tpm/include/public/Capabilities.h:
+
+tpm/include/public/TpmAlgorithmDefines.h:
+
+tpm/include/public/TpmCalculatedAttributes.h:
+
+tpm/include/public/GpMacros.h:
+
+tpm/include/public/endian_swap.h:
+
+tpm/include/platform_interface/pcrstruct.h:
+
+tpm/include/platform_interface/platform_to_tpm_interface.h:
+
+tpm/include/platform_interface/prototypes/_TPM_Hash_Data_fp.h:
+
+tpm/include/platform_interface/prototypes/_TPM_Hash_End_fp.h:
+
+tpm/include/platform_interface/prototypes/_TPM_Hash_Start_fp.h:
+
+tpm/include/platform_interface/prototypes/_TPM_Init_fp.h:
+
+tpm/include/platform_interface/prototypes/ExecCommand_fp.h:
+
+tpm/include/platform_interface/prototypes/Manufacture_fp.h:
+
+tpm/include/public/prototypes/TpmFail_fp.h:

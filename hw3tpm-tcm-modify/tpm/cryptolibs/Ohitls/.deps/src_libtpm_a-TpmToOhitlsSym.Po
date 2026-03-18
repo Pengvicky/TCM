@@ -1,0 +1,74 @@
+tpm/cryptolibs/Ohitls/src_libtpm_a-TpmToOhitlsSym.o: \
+ tpm/cryptolibs/Ohitls/TpmToOhitlsSym.c /usr/include/stdc-predef.h \
+ tpm/cryptolibs/Ohitls/include/Ohitls/TpmToOhitlsSym.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ tpm/include/public/BaseTypes.h \
+ /usr/local/include/include/crypto/crypt_errno.h \
+ /usr/local/include/crypto/aes/include/crypt_aes.h \
+ /usr/local/include/hitls_build.h \
+ /usr/local/include/hitls_config_layer_bsl.h \
+ /usr/local/include/hitls_config_check.h \
+ /usr/local/include/crypto/sm4/include/crypt_sm4.h
+
+/usr/include/stdc-predef.h:
+
+tpm/cryptolibs/Ohitls/include/Ohitls/TpmToOhitlsSym.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+tpm/include/public/BaseTypes.h:
+
+/usr/local/include/include/crypto/crypt_errno.h:
+
+/usr/local/include/crypto/aes/include/crypt_aes.h:
+
+/usr/local/include/hitls_build.h:
+
+/usr/local/include/hitls_config_layer_bsl.h:
+
+/usr/local/include/hitls_config_check.h:
+
+/usr/local/include/crypto/sm4/include/crypt_sm4.h:

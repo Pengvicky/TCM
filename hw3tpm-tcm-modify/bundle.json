@@ -1,0 +1,41 @@
+{
+  "name": "@ohos/tpm",
+  "description": "Microsoft TPM 2.0 Reference Implementation - simulator for RISC-V 32 QEMU",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "publishAs": "code-segment",
+  "segment": {
+    "destPath": "//base/security/tpm"
+  },
+  "dirs": {},
+  "scripts": {},
+  "readmePath": {
+    "en": "README.md"
+  },
+  "component": {
+    "name": "tpm",
+    "subsystem": "security",
+    "syscap": [],
+    "features": [],
+    "adapted_system_type": [
+      "mini"
+    ],
+    "rom": "",
+    "ram": "",
+    "deps": {
+      "components": [
+        "//third_party/openhitls:openhitls"
+      ],
+      "third_party": [
+        "openhitls"
+      ]
+    },
+    "build": {
+      "sub_component": [
+        "//base/security/tpm:libplatform",
+        "//base/security/tpm:libtpm"
+      ],
+      "test": []
+    }
+  }
+}
